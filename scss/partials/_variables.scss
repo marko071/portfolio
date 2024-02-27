@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+$primary-color: #007BFF;
+$s-color: #212529;
+$t-color: #F8F9FA;
+$f-color: #343A40;
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+  scroll-behavior: smooth;
+}

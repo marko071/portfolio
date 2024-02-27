@@ -1,0 +1,375 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+  scroll-behavior: smooth;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  background-color: #212529;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+header #logo {
+  width: 40%;
+}
+header nav {
+  width: 30%;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+header nav ul li {
+  display: inline-block;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: #007BFF;
+  font-size: 24px;
+}
+header nav ul li a:hover {
+  color: #F8F9FA;
+  transition: 0.5s;
+}
+
+#bg-slika {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 770px;
+  background-image: url("../img/pozadina.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  border-bottom: 2px solid #007BFF;
+}
+#bg-slika #pozadinaText {
+  position: absolute;
+  color: #007BFF;
+  top: 370px;
+  left: 50px;
+  font-size: 50px;
+}
+#bg-slika #pozadinaText p {
+  position: absolute;
+  color: #F8F9FA;
+  top: 120px;
+  left: 130px;
+  font-weight: bold;
+  font-size: 45px;
+}
+#bg-slika #pozadina {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 123, 255, 0.2);
+}
+
+#sredina {
+  width: 100%;
+  height: 3400px;
+  background-color: #212529;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#sredina #about {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#sredina #about h2 {
+  text-align: center;
+  font-size: 45px;
+  color: rgb(0, 123, 255);
+  width: 100%;
+}
+#sredina #about #autor-slika {
+  width: 40%;
+  padding-left: 200px;
+  margin: 50px auto;
+}
+#sredina #about img {
+  height: 450px;
+  border-radius: 30px 10px 30px 10px;
+  box-shadow: 10px 10px 10px #007BFF;
+}
+#sredina #about #autor-opis {
+  width: 45%;
+  display: inline;
+  display: flex;
+  justify-content: space-between;
+  align-items: none;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+#sredina #about #autor-opis h3 {
+  font-size: 40px;
+  color: #007BFF;
+  padding-bottom: 15px;
+}
+#sredina #about #autor-opis h3 label {
+  color: #F8F9FA;
+  font-size: 30px;
+}
+#sredina #skills {
+  width: 100%;
+  height: 600px;
+  background-color: #343A40;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-top: 2px solid #007BFF;
+  border-bottom: 2px solid #007BFF;
+}
+#sredina #skills h2 {
+  text-align: center;
+  font-size: 45px;
+  color: rgb(0, 123, 255);
+  width: 100%;
+}
+#sredina #skills .holder {
+  display: flex;
+  justify-content: center;
+  align-items: none;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0px auto;
+}
+#sredina #skills .holder #block1 {
+  width: 100%;
+}
+#sredina #skills .holder #block2 {
+  width: 80%;
+}
+#sredina #skills .holder #block3 {
+  width: 85%;
+}
+#sredina #skills .holder #block4 {
+  width: 50%;
+}
+#sredina #skills .holder #block5 {
+  width: 70%;
+}
+#sredina #skills .holder .blocks {
+  margin: 20px 0px;
+  background: linear-gradient(90deg, rgb(33, 37, 41) 10%, rgb(0, 123, 255) 100%);
+  height: 50px;
+}
+#sredina #skills .holder .blocks .fa-brands {
+  text-align: left;
+  color: #F8F9FA;
+  font-size: 30px;
+  padding-top: 10px;
+  padding-left: 15px;
+}
+#sredina #services {
+  width: 100%;
+  height: 600px;
+  background-color: #212529;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#sredina #services .s-blok {
+  width: 25%;
+  height: 400px;
+  background-color: #343A40;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-radius: 30px 10px 30px 10px;
+}
+#sredina #services .s-blok .fa-solid {
+  font-size: 60px;
+  width: 100%;
+  color: #007BFF;
+}
+#sredina #services .s-blok h3 {
+  font-size: 40px;
+  color: #007BFF;
+}
+#sredina #services .s-blok p {
+  font-size: 25px;
+  width: 90%;
+  color: #F8F9FA;
+}
+#sredina #services h2 {
+  text-align: center;
+  font-size: 45px;
+  color: rgb(0, 123, 255);
+  width: 100%;
+}
+#sredina #projects {
+  width: 100%;
+  height: 550px;
+  background-color: #343A40;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: none;
+  flex-wrap: wrap;
+  border-bottom: 2px solid #007BFF;
+  border-top: 2px solid #007BFF;
+}
+#sredina #projects h2 {
+  text-align: center;
+  font-size: 45px;
+  color: rgb(0, 123, 255);
+  width: 100%;
+}
+#sredina #projects .project {
+  width: 30%;
+  height: 300px;
+  border-radius: 10px;
+}
+#sredina #projects .first {
+  background-image: url("../img/prestige1.png");
+  background-position: center;
+  background-size: cover;
+}
+#sredina #projects .first #link {
+  width: 100%;
+  height: 100%;
+}
+#sredina #projects .second {
+  background-image: url("../img/portfolio.png");
+  background-position: center;
+  background-size: cover;
+}
+#sredina #projects .second #link {
+  width: 100%;
+  height: 100%;
+}
+#sredina #projects .third {
+  background-image: url("../img/comingsoon.png");
+  background-position: center;
+  background-size: cover;
+}
+#sredina #contact {
+  width: 100%;
+  height: 750px;
+  background-color: #212529;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#sredina #contact h2 {
+  text-align: center;
+  font-size: 45px;
+  color: rgb(0, 123, 255);
+  width: 100%;
+}
+#sredina #contact #form {
+  padding-top: 50px;
+  width: 800px;
+  height: 700px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: center;
+}
+#sredina #contact #form #formContact {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0px auto;
+}
+#sredina #contact #form #formContact input {
+  width: 350px;
+  height: 50px;
+  border-radius: 15px;
+  text-indent: 10px;
+  font-size: 18px;
+  background-color: #212529;
+  border: 1px solid #007BFF;
+}
+#sredina #contact #form #formContact #send {
+  margin: 0px auto;
+  color: #F8F9FA;
+}
+#sredina #contact #form #formContact textarea {
+  resize: none;
+  width: 100%;
+  height: 250px;
+  border-radius: 15px;
+  text-indent: 10px;
+  padding-top: 10px;
+  font-size: 18px;
+  background-color: #212529;
+  border: 1px solid #007BFF;
+  color: #F8F9FA;
+}
+#sredina #contact #form #formContact #name {
+  margin-right: 90px;
+}
+#sredina #contact #form #formContact #email {
+  width: 800px;
+  color: #F8F9FA;
+}
+#sredina #contact #form #formContact input[type=text] {
+  color: #F8F9FA;
+}
+#sredina #contact #form #send:hover {
+  background-color: #007BFF;
+  transition: 0.5s;
+  color: #F8F9FA;
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: #212529;
+  border-top: 2px solid #007BFF;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+footer #rights {
+  color: #F8F9FA;
+  font-size: 20px;
+}
+footer .fa-brands, footer .fa-solid {
+  color: #F8F9FA;
+  font-size: 30px;
+  padding-right: 20px;
+}
+footer .fa-brands:hover {
+  color: #007BFF;
+  transition: 0.5s;
+}
+footer .fa-solid:hover {
+  color: #007BFF;
+  transition: 0.5s;
+}/*# sourceMappingURL=style.css.map */

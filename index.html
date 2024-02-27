@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="keywords" content="web design, ui/ux, responsive, seo, marko desic" />
+		<meta name="description" content="My name is Marko, I'm web developer. Experienced in frontend, backend, seo..." />
+		<link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<link rel="stylesheet" href="css/style.css" text="text/css" />
+		<link rel="stylesheet" href="css/responsive.css" text="text/css" />
+		<title>Marko Dešić - Portfolio</title>
+	</head>
+	
+	<body>
+		<header>
+			<div id="logo">
+				<h1><a href="index.html"><img src="img/logo.png" alt="logo" /></a></h1>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="#about">About</a></li>	
+					<li><a href="#skills">Skills</a></li>
+					<li><a href="#services">Services</a></li>	
+					<li><a href="#projects">Projects</a></li>		
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<div id="bg-slika">
+			<div id="pozadinaText">
+				<h1>Marko Dešić</h1>
+				<p>UI/UX Designer</p>
+			</div>
+			<div id="pozadina">
+				
+			</div>
+		</div>
+		<div id="sredina">
+
+			<div id="about">
+				<h2>About me</h2>
+				<div id="autor-slika">
+					<img src="img/autor.jpg" alt="autor"/>
+				</div>
+				<div id="autor-opis">
+					<h3>Name : <label>Marko Dešić</label></h3>
+					<h3>Age : <label>19</label></h3>
+					<h3>Index Number : <label>74/23</label></h3>
+					<h3>College : <label>ICT</label></h3>
+					<h3>High School : <label>Electrotechnical School</label></h3>
+					<h3>E-mail : <label>marko&#46;desic&#46;74&#46;23&#64;ict&#46;edu&#46;rs</label></h3>
+					<h3>Phone : <label>+381 064 5995525</label></h3>
+				</div>
+			</div>
+
+			<div id="skills">
+				<h2>Skills</h2>
+				<div class="holder">
+					<div class="blocks" id="block1">
+						<i class="fa-brands fa-html5"></i>
+					</div>
+					<div class="blocks" id="block2">
+						<i class="fa-brands fa-css3-alt"></i>
+					</div>
+					<div class="blocks" id="block3">
+						<i class="fa-brands fa-bootstrap"></i>
+					</div>
+					<div class="blocks" id="block4">
+						<i class="fa-brands fa-js"></i>
+					</div>
+					<div class="blocks" id="block5">
+						<i class="fa-brands fa-sass"></i>
+					</div>
+				</div>
+			</div>
+
+			<div id="services">
+				<h2>Services</h2>
+				<div class="s-blok">
+					<i class="fa-solid fa-wand-magic-sparkles"></i>
+					<h3>UI/UX Design</h3>
+					<p>Combines visual aesthetics with functional layout
+					 to ensure a seamless user experience.
+					 It emphasizes user-friendly interfaces and intuitive navigation to
+					 enhance engagement and satisfaction.</p>
+				</div>
+				<div class="s-blok">
+					<i class="fa-solid fa-globe"></i>
+					<h3>SEO</h3>
+					<p>Boosts a website's search engine rankings,
+					 enhancing visibility. It involves using relevant keywords,
+					 improving site speed, and acquiring quality backlinks.
+					 Regular content updates and a mobile-friendly design are also essential.</p>
+				</div>
+				<div class="s-blok">
+					<i class="fa-solid fa-code"></i>
+					<h3>Responsive</h3>
+					<p>Makes websites adaptable to any device,
+					 ensuring a consistent and optimal user experience.
+					 It uses fluid grids and flexible images to dynamically adjust
+					 layout and content to fit different screen sizes.</p>
+				</div>
+
+			</div>
+
+			<div id="projects">
+				<h2>Projects</h2>
+				<div class="project first">
+					<a href="https://marko071.github.io/prestige/index.html" target="_blank"><div id="link"></div></a>
+				</div>
+				<div class="project second">
+					<a href="index.html"><div id="link"></div></a>
+				</div>
+				<div class="project third">
+					
+				</div>
+			</div>
+
+			<div id="contact">
+				<h2>Contact me</h2>
+				<div id="form">
+					<form id="formContact" action="obrada.php" method="post">
+						<input type="text" id="name" name="name" placeholder="First Name" required="required" />
+						<input type="text" id="lname" name="lname" placeholder="Last Name" required="required" /><br/>
+						<input type="email" id="email" name="email" placeholder="Email Address" required="required" />
+						<textarea placeholder="Enter your message..."></textarea>
+						<input type="submit" id="send" name="send" value="Send" />
+						
+					</form>
+				</div>
+			</div>
+			
+		</div>
+		<footer>
+			<div id="rights">
+				<p>&copy; 2024 - All rights reserved</p>
+			</div>
+			<div id="links">
+				<a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+				<a href="https://rs.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+				<a href="#"><i class="fa-brands fa-sass" target="_blank"></i></a>
+				<a href="#"><i class="fa-solid fa-sitemap" target="_blank"></i></a>
+			</div>
+		</footer>
+	</body>	
+</html>	

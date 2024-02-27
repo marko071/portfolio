@@ -1,0 +1,429 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+  scroll-behavior: smooth;
+}
+
+@media screen and (max-width: 1610px) {
+  header #logo {
+    width: 30%;
+  }
+  header nav {
+    width: 35%;
+  }
+}
+@media screen and (max-width: 1450px) {
+  header #logo {
+    width: 30%;
+  }
+  header nav {
+    width: 40%;
+  }
+  #sredina #projects .project {
+    height: 250px;
+  }
+}
+@media screen and (max-width: 1390px) {
+  #sredina #about #autor-slika {
+    width: 50%;
+  }
+  #sredina #about #autor-opis {
+    width: 50%;
+  }
+  #sredina #services .s-blok .fa-solid {
+    font-size: 50px;
+  }
+  #sredina #services .s-blok h3 {
+    font-size: 50px;
+  }
+  #sredina #services .s-blok p {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 1252px) {
+  header nav {
+    width: 45%;
+  }
+  #sredina #services .s-blok h3 {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 1180px) {
+  header nav {
+    width: 50%;
+  }
+  #bg-slika {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  #bg-slika #pozadinaText {
+    top: auto;
+    left: auto;
+  }
+  #sredina {
+    height: 3500px;
+  }
+  #sredina #about #autor-slika {
+    padding-left: 100px;
+    width: 50%;
+  }
+  #sredina #about #autor-opis h3 {
+    font-size: 30px;
+  }
+  #sredina #about #autor-opis h3 label {
+    font-size: 25px;
+  }
+  #sredina #services .s-blok {
+    width: 30%;
+  }
+  #sredina #projects {
+    height: 750px;
+  }
+  #sredina #projects .project {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  header nav {
+    width: 55%;
+  }
+}
+@media screen and (max-width: 970px) {
+  #sredina #about #autor-slika {
+    padding-left: 30px;
+  }
+}
+@media screen and (max-width: 900px) {
+  header nav {
+    width: 60%;
+  }
+  #sredina #about #autor-opis h3 {
+    font-size: 25px;
+  }
+  #sredina #about #autor-opis h3 label {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 830px) {
+  header #logo {
+    width: 20%;
+  }
+  header nav {
+    width: 70%;
+  }
+  #sredina {
+    height: 4800px;
+  }
+  #sredina #about {
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  #sredina #services {
+    height: 1500px;
+    flex-direction: column;
+  }
+  #sredina #services .s-blok {
+    width: 40%;
+  }
+  #sredina #projects {
+    height: 950px;
+    flex-direction: column;
+  }
+  #sredina #projects .project {
+    width: 55%;
+  }
+  #sredina #contact #form #formContact #name {
+    margin-right: 50px;
+  }
+  #sredina #contact #form #formContact input {
+    width: 300px;
+    margin: 0px auto;
+  }
+  #sredina #contact #form #formContact #email {
+    width: 700px;
+  }
+  #sredina #contact #form #formContact textarea {
+    margin: 0px auto;
+    width: 700px;
+  }
+}
+@media screen and (max-width: 748px) {
+  header nav ul li a {
+    font-size: 20px;
+  }
+  #sredina #about #autor-opis {
+    width: 100%;
+    text-align: center;
+  }
+  #sredina #services .s-blok {
+    width: 45%;
+  }
+  #sredina #contact h2 {
+    padding-top: 20px;
+  }
+  #sredina #contact #form #formContact #name {
+    margin-right: 0px;
+  }
+  #sredina #contact #form #formContact input {
+    width: 270px;
+  }
+  #sredina #contact #form #formContact #email {
+    width: 600px;
+  }
+  #sredina #contact #form #formContact textarea {
+    width: 600px;
+  }
+}
+@media screen and (max-width: 650px) {
+  #bg-slika #pozadinaText {
+    font-size: 40px;
+  }
+  #bg-slika #pozadinaText p {
+    font-size: 35px;
+  }
+  #sredina {
+    height: 5000px;
+  }
+  #sredina #about #autor-slika {
+    padding-left: 0px;
+  }
+  #sredina #services .s-blok {
+    width: 55%;
+  }
+  #sredina #projects .project {
+    width: 65%;
+  }
+  #sredina #contact {
+    height: 800px;
+  }
+  #sredina #contact #form #formContact {
+    justify-content: center;
+    align-items: center;
+  }
+  #sredina #contact #form #formContact #name {
+    margin-right: 0px;
+  }
+  #sredina #contact #form #formContact input {
+    margin: 0px;
+    width: 500px;
+  }
+  #sredina #contact #form #formContact #email {
+    width: 500px;
+  }
+  #sredina #contact #form #formContact textarea {
+    width: 500px;
+    height: 200px;
+  }
+  #sredina #contact #form #formContact #send {
+    width: 250px;
+  }
+}
+@media screen and (max-width: 748) {
+  #sredina #contact #form {
+    padding-top: 0px;
+  }
+}
+@media screen and (max-width: 600px) {
+  header nav ul li a {
+    font-size: 15px;
+    font-weight: bold;
+  }
+}
+@media screen and (max-width: 540px) {
+  #sredina #about img {
+    height: 400px;
+  }
+  #sredina #services .s-blok {
+    width: 65%;
+  }
+  #sredina #contact #form #formContact input, #sredina #contact #form #formContact #email, #sredina #contact #form #formContact textarea {
+    width: 400px;
+  }
+  #sredina #contact #form #formContact textarea {
+    height: 200px;
+  }
+  #sredina #contact #form #formContact #send {
+    width: 250px;
+  }
+  #sredina #projects .project {
+    width: 75%;
+  }
+  footer #rights {
+    font-size: 15px;
+  }
+  footer .fa-brands, footer .fa-solid {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 480px) {
+  #bg-slika #pozadinaText {
+    font-size: 30px;
+  }
+  #bg-slika #pozadinaText p {
+    font-size: 30px;
+    left: 65px;
+    top: 75px;
+  }
+  #pozadinaText {
+    font-size: 35px;
+  }
+  #pozadinaText p {
+    font-size: 30px;
+    left: 100px;
+  }
+  #sredina #about {
+    height: 750px;
+  }
+  #sredina #about img {
+    height: 300px;
+    box-shadow: 5px 5px 5px #007BFF;
+  }
+  #sredina #about #autor-opis h3 {
+    font-size: 20px;
+  }
+  #sredina #about #autor-opis h3 label {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 480px) {
+  header {
+    height: 140px;
+  }
+  header #logo {
+    width: 100%;
+    text-align: center;
+  }
+  header nav {
+    padding-bottom: 10px;
+  }
+  #sredina {
+    height: 4600px;
+  }
+  #sredina #skills {
+    height: 550px;
+  }
+  #sredina #services {
+    height: 1400px;
+  }
+  #sredina #projects .project {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 440px) {
+  #bg-slika #pozadinaText {
+    font-size: 30px;
+  }
+  #bg-slika #pozadinaText p {
+    font-size: 30px;
+    left: 65px;
+    top: 75px;
+  }
+  header nav {
+    width: 85%;
+  }
+  #sredina #services .s-blok {
+    width: 85%;
+  }
+  #sredina #contact {
+    height: 750px;
+  }
+  #sredina #contact h2 {
+    padding-top: 0px;
+  }
+  #sredina #contact #form {
+    padding-top: 0px;
+  }
+  #sredina #contact #form #formContact input, #sredina #contact #form #formContact #email, #sredina #contact #form #formContact textarea {
+    width: 300px;
+  }
+  #sredina #contact #form #formContact #send {
+    width: 150px;
+  }
+  #sredina #contact #form #formContact textarea {
+    height: 150px;
+  }
+  footer #rights {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 400px) {
+  #sredina #about img {
+    height: 250px;
+  }
+}
+@media screen and (max-width: 390px) {
+  header nav {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 360px) {
+  #bg-slika #pozadinaText {
+    font-size: 25px;
+  }
+  #bg-slika #pozadinaText p {
+    font-size: 25px;
+    left: 55px;
+    top: 65px;
+  }
+}
+@media screen and (max-width: 341px) {
+  header nav {
+    width: 95%;
+  }
+  header nav ul li a {
+    font-size: 10px;
+  }
+  #sredina #contact #form #formContact input, #sredina #contact #form #formContact #email, #sredina #contact #form #formContact textarea {
+    width: 200px;
+  }
+  #sredina #contact #form #formContact #send {
+    width: 150px;
+  }
+}
+@media screen and (max-width: 315px) {
+  #bg-slika #pozadinaText {
+    font-size: 20px;
+  }
+  #bg-slika #pozadinaText p {
+    font-size: 20px;
+    left: 45px;
+    top: 50px;
+  }
+  #sredina {
+    height: 4000px;
+  }
+  #sredina #about {
+    height: 600px;
+  }
+  #sredina #about img {
+    height: 200px;
+  }
+  #sredina #about #autor-opis h3 {
+    font-size: 15px;
+  }
+  #sredina #about #autor-opis h3 label {
+    font-size: 10px;
+  }
+  #sredina #services {
+    height: 1000px;
+  }
+  #sredina #services .s-blok {
+    height: 300px;
+  }
+  #sredina #services .s-blok .fa-brands, #sredina #services .s-blok .fa-solid, #sredina #services .s-blok h3 {
+    font-size: 35px;
+  }
+  #sredina #services .s-blok p {
+    font-size: 15px;
+  }
+}/*# sourceMappingURL=responsive.css.map */
