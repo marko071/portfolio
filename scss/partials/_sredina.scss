@@ -187,10 +187,6 @@
                     background-color: $s-color;
                     border: 1px solid $primary-color;
                 }
-                #send{
-                    margin: 0px auto;
-                    color: $t-color;
-                }
                 textarea{
                     resize: none;
                     width: 100%;
@@ -202,7 +198,13 @@
                     background-color: $s-color;
                     border: 1px solid $primary-color;
                     color: $t-color;
-                }        
+                } 
+                #send{
+                    margin: 0px auto;
+                    color: $t-color;
+                    text-indent: 0px;
+                    transition: 0.5s;
+                }
                 #name{
                     margin-right: 90px;
                 }
@@ -216,7 +218,6 @@
             }
             #send:hover{
                 background-color: $primary-color;
-                transition: 0.5s;
                 color: $t-color;
             } 
         }           
