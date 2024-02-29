@@ -13,13 +13,12 @@ footer{
         color: $t-color;
         font-size: 30px;
         padding-right: 20px;
+        transition: 0.5s;
     }
     .fa-brands:hover{
         color: $primary-color;
-        transition: 0.5s;
     }
     .fa-solid:hover{
         color: $primary-color;
-        transition: 0.5s;
     }
 }
